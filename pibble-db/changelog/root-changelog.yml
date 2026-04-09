@@ -1,0 +1,9 @@
+databaseChangeLog:
+
+  - changeSet: 
+    id: "pibble"
+    author: "pibblelogist"
+    changes: 
+      - sqlFile: 
+        path: "../migrations/users.sql"
+        relativeToChangelogFile: true
