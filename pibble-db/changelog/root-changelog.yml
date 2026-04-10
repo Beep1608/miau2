@@ -13,3 +13,11 @@ databaseChangeLog:
         - sqlFile:
             path: "../migrations/pibble.sql"
             relativeToChangelogFile: true
+
+  - changeSet:
+      id: "users y pibbles"
+      author: "geeble"
+      changes: 
+        - sqlFile: 
+            path: "../migrations/alter_users_table.sql"
+            relativeToChangelogFile: true
