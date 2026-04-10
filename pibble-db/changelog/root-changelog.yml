@@ -1,9 +1,15 @@
 databaseChangeLog:
-
-  - changeSet: 
-    id: "pibble"
-    author: "pibblelogist"
-    changes: 
-      - sqlFile: 
-        path: "../migrations/users.sql"
-        relativeToChangelogFile: true
+  - changeSet:
+      id: "pibble"
+      author: "pibblelogist"
+      changes:
+        - sqlFile:
+            path: "../migrations/users.sql"
+            relativeToChangelogFile: true
+  - changeSet:
+      id: "nihao"
+      author: "onichan"
+      changes:
+        - sqlFile:
+            path: "../migrations/pibble.sql"
+            relativeToChangelogFile: true

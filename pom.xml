@@ -74,7 +74,7 @@
                     <artifactId>liquibase-maven-plugin</artifactId>
                     <version> 5.0.2 </version>
                     <configuration>
-                        <propertyFile>my-pibble-db/liquibase.properties</propertyFile>    
+                        <propertyFile>/pibble-db/liquibase.properties</propertyFile>    
                     </configuration>
                 </plugin>
             </plugins>
